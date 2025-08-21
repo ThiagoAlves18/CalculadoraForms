@@ -193,7 +193,7 @@
             this.btnMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMais.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMais.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnMais.Location = new System.Drawing.Point(226, 327);
+            this.btnMais.Location = new System.Drawing.Point(223, 327);
             this.btnMais.Name = "btnMais";
             this.btnMais.Size = new System.Drawing.Size(64, 61);
             this.btnMais.TabIndex = 10;
@@ -269,6 +269,7 @@
             this.btnLimpar.TabIndex = 15;
             this.btnLimpar.Text = "C";
             this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // txbTela
             // 
@@ -281,6 +282,7 @@
             this.txbTela.Size = new System.Drawing.Size(278, 80);
             this.txbTela.TabIndex = 16;
             this.txbTela.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txbTela.Click += new System.EventHandler(this.numero_Click);
             // 
             // Form1
             // 
@@ -308,6 +310,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Click += new System.EventHandler(this.numero_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
